@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2 class="title">
+  Le Apóstasi 
+</h2>
+<h3 class="title">
+  WCCG Team Distance Challlenge 
+</h3>
+
+<img src="banner-1.jpg" alt="Le Apóstasi Banner" width="500" height="500"> 
+
+<h3 class="title">
+  Current Status: In Progress 
+</h3>
+
+<h3 class="title">
+  Leaderboard 
+</h3>
+
+<table class="progress-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div>Ramasubramaniam SA</div>
+        <progress id="file" value="64" max="100">64% </progress>
+      </td>
+      <td class="number">646</td>
+      
+    </tr>
+    <tr>
+      <td>
+        <div>Joseph Larsen</div>
+        <progress id="file" value="44" max="100">44% </progress>
+      </td>
+      <td class="number">447</td>
+      
+    </tr>
+    <tr>
+      <td>
+        <div>Poonkathirvelan Boopalan</div>
+        <progress id="file" value="32" max="100">32% </progress>
+      </td>
+      <td class="number">323</td>
+      
+    </tr>
+    <tr>
+      <td>
+        <div>Saju Thankappan</div>
+        <progress id="file" value="24" max="100">24% </progress>
+      </td>
+      <td class="number">240</td>
+      
+    </tr>
+    <tr>
+      <td>
+        <div>Kumar Babu</div>
+        <progress id="file" value="10" max="100">10% </progress>
+      </td>
+      <td class="number">108</td>
+      
+    </tr>  
+  </tbody>
+  <tfoot>
+    <td>
+      <div>Overall Progress</div>
+      <progress id="file" value="34" max="100">34% </progress>
+    </td>
+    <td class="number">1764</td>
+
+  </tfoot>
+</table> 
+
+{% endblock content %}
