@@ -12,71 +12,72 @@
 
 <img src="/images/banner-1.jpg" alt="The fantastic 4" width="500" height="500"> 
 
-<h3 class="title">
+<h3 class="title status">
   Current Status: In Progress 
 </h3>
 
-<h3 class="title">
-  Leaderboard 
-</h3>
+<div class="leaderboard-container">
+  <h3 class="title leaderboard">
+    Le Apóstasi Leaderboard 
+  </h3>
 
-<table class="progress-table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Distance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+  <table class="leaderboard">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Distance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div>Ramasubramaniam SA</div>
+          <progress id="file" value="70" max="100">70% </progress>
+        </td>
+        <td class="number">707</td>
+        
+      </tr>
+      <tr>
+        <td>
+          <div>Joseph Larsen</div>
+          <progress id="file" value="45" max="100">45% </progress>
+        </td>
+        <td class="number">451</td>
+        
+      </tr>
+      <tr>
+        <td>
+          <div>Poonkathirvelan Boopalan</div>
+          <progress id="file" value="32" max="100">32% </progress>
+        </td>
+        <td class="number">323</td>
+        
+      </tr>
+      <tr>
+        <td>
+          <div>Saju Thankappan</div>
+          <progress id="file" value="24" max="100">24% </progress>
+        </td>
+        <td class="number">240</td>
+        
+      </tr>
+      <tr>
+        <td>
+          <div>Kumar Babu</div>
+          <progress id="file" value="10" max="100">10% </progress>
+        </td>
+        <td class="number">108</td>
+        
+      </tr>  
+    </tbody>
+    <tfoot>
       <td>
-        <div>Ramasubramaniam SA</div>
-        <progress id="file" value="70" max="100">70% </progress>
+        <div>Overall Progress</div>
+        <progress id="file" value="34" max="100">36% </progress>
       </td>
-      <td class="number">707</td>
-      
-    </tr>
-    <tr>
-      <td>
-        <div>Joseph Larsen</div>
-        <progress id="file" value="45" max="100">45% </progress>
-      </td>
-      <td class="number">451</td>
-      
-    </tr>
-    <tr>
-      <td>
-        <div>Poonkathirvelan Boopalan</div>
-        <progress id="file" value="32" max="100">32% </progress>
-      </td>
-      <td class="number">323</td>
-      
-    </tr>
-    <tr>
-      <td>
-        <div>Saju Thankappan</div>
-        <progress id="file" value="24" max="100">24% </progress>
-      </td>
-      <td class="number">240</td>
-      
-    </tr>
-    <tr>
-      <td>
-        <div>Kumar Babu</div>
-        <progress id="file" value="10" max="100">10% </progress>
-      </td>
-      <td class="number">108</td>
-      
-    </tr>  
-  </tbody>
-  <tfoot>
-    <td>
-      <div>Overall Progress</div>
-      <progress id="file" value="34" max="100">36% </progress>
-    </td>
-    <td class="number">1829</td>
-
-  </tfoot>
-</table> 
+      <td class="number">1829</td>
+    </tfoot>
+  </table> 
+</div>
 
 {% endblock content %}
