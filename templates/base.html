@@ -82,21 +82,32 @@
         list-style-type: none;
       }
 
+      .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/mahabs-1.jpg");
+        height: 25vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .hero .title {
+        color: red;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+
       .container {
         max-width: 680px;
-				padding: 1.5rem;
         margin: auto;
 			}
 
       .youtube iframe {
         width:100%;
         min-height:200px
-      }
-
-      @media (min-width: 600px) {
-        .youtube iframe {
-          min-height:400px
-        }
       }
 
       pre {
@@ -160,6 +171,7 @@
         color: #BAE6FD;
         padding: 1rem;
         border-radius: 0.25rem;
+        margin: 1rem;
       }
 
       table.leaderboard {
@@ -168,6 +180,16 @@
 
       tfoot td {
         padding-top: 1.5rem;
+      }
+
+      @media (min-width: 600px) {
+        .youtube iframe {
+          min-height:400px
+        }
+
+        .leaderboard-container {
+          margin: 0;
+        }
       }
     </style>
   </head>
