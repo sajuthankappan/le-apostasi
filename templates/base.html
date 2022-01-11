@@ -14,12 +14,13 @@
         --cream: #eee;
         --black: #000;
         --white: #fff;
+        --dark-gray: #1F2937;
         --text-color: var(--black);
         --bg-color: var(--white);
-        --nav-bg-color: var(--cream);
+        --nav-bg-color: var(--dark-gray);
         --dark: #121212;
         --link-color: darkblue;
-        --nav-link-color: darkblue;
+        --nav-link-color: #BAE6FD;
       }
       
       @media (prefers-color-scheme: dark) {
@@ -138,6 +139,14 @@
         padding: 1rem 0;
       }
 
+      h2.title {
+        color: #134E4A;
+      }
+
+      h3.title {
+        color: #1E3A8A;
+      }
+
       .title.status {
         color: green;
       }
@@ -147,7 +156,7 @@
       }
 
       .leaderboard-container {
-        background-color: #1F2937;
+        background-color: var(--dark-gray);
         color: #BAE6FD;
         padding: 1rem;
         border-radius: 0.25rem;
@@ -166,6 +175,7 @@
     <div class="nav">
       <nav role="navigation" aria-label="main navigation">
         <a href="/"><h1>Le Apóstasi</h1></a>
+        <a href="/">Home</a>
         <a href="/gallery/">Gallery</a>
       </nav>
     </div>
